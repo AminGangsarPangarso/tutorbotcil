@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar html</title>
+    <!-- <style>
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background-image: url("./asset/anya.jpg");
+            background-repeat: no-repeat;
+            color: white;
+
+        }
+    </style> -->
+    <style>
+        #anya {
+            width: 100px;
+            border-radius: 100%;
+        }
+        .abc{
+            font-size: 40px;
+        }
+        .main{
+            background-color: pink;
+        }
+        .hello{
+            background-color: black;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+   <div class="main">
+    <h1 style="color: red;" class="hello">Hello word</h1>
+    <h2 class="">Hello word</h2>
+    <h3>Hello word</h3>
+    <h4>Hello word</h4>
+    <h5>Hello word</h5>
+    <h6>Hello word</h6>
+    <hr>
+    <img src="./asset/anya.jpg" alt="" class="anya" id="anya">
+    <br>
+    <audio controls>
+        <source src="anyavoice.mp3" type="audio/mpeg">
+        <source src="anyavoice.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <br>
+    <marquee behavior="" direction="" class="abc">syafa botcil</marquee>
+    <br>
+    <hr>
+    5 <sup>adfasdfad</sup>
+    <br>
+    Haha<sub>wkwk</sub>
+    <br>
+    &radic;<span><sup>4</sup></span> 
+    <br>
+    <a href="/">Tutorial Desain Website</a>
+    <br>
+    <a href="https://www.google.com" target="_blank">Link Dengan New Tab</a>
+    <hr>
+    <!-- awal pembuatan form  -->
+    <form action="" class="container">
+        <fieldset>
+            <legend>Your Identity</legend>
+            <p>
+                <label for="">First Namefa :</label>
+                <input type="text" name="username" placeholder="Masukan Nama Kamu">
+            </p>
+            <p>
+                <label for="">Last Name :</label>
+                <input type="text" name="lastname">
+            </p>
+            <p>
+                <label for="">password :</label>
+                <input type="password" name="password">
+            </p>
+            <p>
+                <label for="">Birth date :</label>
+                <input type="date" name="date">
+            </p>
+            <p>
+                <label>
+                    Hobi :
+                </label>
+                <td>
+                    <input type="checkbox" name="berenang">Berenang
+                    <input type="checkbox" name="berenang">makan
+                    <input type="checkbox" name="berenang">Tidur
+                    <input type="checkbox" name="berenang">Nangis
+                </td>
+            </p>
+          <p>
+            <label for="">Gender :</label>
+            <input type="radio" name="jk">Laki-Laki
+            <input type="radio" name="jk">Perempuan
+          </p>
+          <p>
+            <label for="">Departement :</label>
+            <select name="departement">
+                <option value="" disabled selected>-Select your department-</option>
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+                <option value="UI/UX">UI/UX</option>
+                <option value="QA">QA</option>
+                <option value="Tester">Tester</option>
+                <option value="Project Manager">Project Manager</option>
+            </select>
+          </p>
+          <p>
+            <label for=""> Your Comments :</label>
+            <textarea name="comments" id="" cols="0" rows="10"></textarea>
+          </p>
+          <p>
+            <label for=""> Upload Foto :</label>
+            <input type="file">
+          </p>
+          <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </p>
+        </fieldset>
+    </form>
+    <!-- akhir pembuatan form  -->
+</div>
+</body>
+</html>
